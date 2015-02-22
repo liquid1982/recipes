@@ -1,0 +1,91 @@
+@import url("//fonts.googleapis.com/css?family=Carrois+Gothic+SC");
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #EF4229;
+  font-size: 3em;
+}
+
+header nav {
+  border: 1px solid #B7B7B7;
+  border-left: none;
+  border-right: none;
+}
+
+header nav li {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.recipe-info {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  border: 2px solid #8BC13F;
+  padding: 36px 260px 50px 62px;
+  position: relative;
+}
+
+.recipe-info h2 {
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+
+.recipe-meta {
+  color: #8BC13F;
+}
+
+.user-interactions {
+  position: absolute;
+  top: 36px;
+  right: 10px;
+  width: 240px;
+}
+
+.rating {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.rating .number {
+  display: block;
+  font-size: 48px;
+}
+
+.rating span {
+  color: #999;
+}
+
+.recipe-body {
+  position: relative;
+}
+
+.recipe-body figure img {
+  max-width: 580px;
+  margin-top: -50px;
+  border: 20px solid #fff;
+  border-top: none;
+  border-bottom: none;
+}
